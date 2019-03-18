@@ -1,0 +1,11 @@
+<div *ngIf="hero">
+
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div><span>Name: </span>{{hero.name}}</div>
+    <div><span>Description: </span>{{hero.description}}</div>
+    
+    <button (click)="goBack()"> < Back</button>
+
+  
+  </div>
