@@ -1,0 +1,25 @@
+.view {
+    //background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    //background: url("https://images8.alphacoders.com/283/283339.jpg")no-repeat center center;
+    //background: url("https://i.pinimg.com/originals/f8/02/81/f802813ecaff9b697468d738c82c002c.jpg")no-repeat center center;
+    background: url("https://i.pinimg.com/originals/d1/0f/d0/d10fd0bb67350cbb82b1573eb907b1b2.png")no-repeat center center;
+    //background: url("https://i.pinimg.com/originals/fe/91/5f/fe915f25f0f4b70e05d365a61f1920db.jpg")no-repeat center center;
+    //background: url("https://i.pinimg.com/originals/e1/cc/30/e1cc30452128f7dfc10a8eca9db57e8c.jpg")no-repeat center center;
+    //background: url("https://flipwallpapers.com/wallpapers/venom-wallpaper-hd-resolution-For-desktop-Wallpaper.jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
